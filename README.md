@@ -10,5 +10,6 @@ ssc.php找到空间挂上去即可在线检测。
     wget https://raw.githubusercontent.com/Huiaini/kimsufi-find/master/ssc.php
     
 #### 然后直接访问
-例
-    https://****.com/ssc.php
+### 例
+
+    https://****.com/ssc.php
