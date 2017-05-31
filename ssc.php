@@ -1,20 +1,4 @@
 <?php
-    /****************************************
-     *  VERSION : v.20170312
-     *  DATE    : 2016-10-06
-     *
-     *  Copyright (C) 201x (reruin#gmail.com) 
-     *
-     *  This is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the 
-     *  Free Software Foundation, either version 2 of the License, or(at your option) any later version.
-     *  
-     *  This is distributed in the hope that it will be useful,but WITHOUT ANY WARRANTY;  without even the implied warranty of MERCHANTABILITY      
-     *  or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. 
-     *
-     *  You should have received a copy of the GNU General Public License along with Foobar. If not, see <http://www.gnu.org/licenses/>.
-     *
-     *****************************************/
-
     function checkOnline($id){
         $resp = file_get_contents("https://console.online.net/en/order/server");
         $start = strpos($resp , $id);
@@ -310,7 +294,7 @@
     </section>
 
     <footer>
-        <p><a class="github" href="https://github.com/Huiaini"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg></a>Huiaini5201314#gmail.com</p>
+        <p><a class="github" href="https://github.com/Huiaini"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg></a>Huiani1314#outlook.com</p>
     </footer>
     <script type="text/javascript" src='//cdn.bootcss.com/jquery/3.2.1/jquery.min.js'></script>
     <script type="text/javascript" src='https://coding.net/u/jocry/p/kimsufi-find/git/raw/master/ssc.js'></script>
@@ -361,7 +345,7 @@ $("<span>添加</span><select>" + s + "</select>")
                 */
 
                 $('header .help a').click(function() {
-                    alert('本程序只做学习探讨之用。\r\n Huiaini5201314@gmail.com\r\n https://github.com/Huiaini')
+                    alert('本程序只做学习探讨之用。\r\n Huiaini1314@outlook.com\r\n https://github.com/Huiaini')
                 });
 
                 $("header .tick select").change(function() {
